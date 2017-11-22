@@ -25,18 +25,22 @@ blockquote cite {
   background: linear-gradient(160deg,rgba(49, 146, 14, 0.8),rgba(0, 106, 177, 0.8)),url('../img/uec-fountain.jpg') no-repeat 50% 50%/cover;
   text-align: center;
   color: #eaeaea;
-  padding: 200px 0;
+  padding: 150px 0;
   margin-bottom: 30px;
+  max-height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome .title {
   font-weight: bold;
-  font-size: 8vw;
+  font-size: 10vw;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 720px) {
   .welcome .title {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
