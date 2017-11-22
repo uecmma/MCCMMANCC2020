@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  color: #333;
+}
+
+blockquote {
+  border: none;
+  font-style: italic;
+  margin: 0.5rem;
+}
+
+blockquote > p {
+  margin-bottom: 0.5em;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+}
+
+/****************************************
+ * welcom
+ ****************************************/
+.welcome {
+  background: linear-gradient(160deg,rgba(49, 146, 14, 0.8),rgba(0, 106, 177, 0.8)),url('../img/uec-fountain.jpg') no-repeat 50% 50%/cover;
+  text-align: center;
+  color: #eaeaea;
+  padding: 200px 0;
+  margin-bottom: 30px;
+}
+
+.welcome .title {
+  font-weight: bold;
+  font-size: 8vw;
+}
+
+@media (min-width: 1000px) {
+  .welcome .title {
+    font-size: 80px;
+  }
+}
+
+.welcome .description {
+  font-size: 16px;
+}
+
+
+/****************************************
+ * content
+ ****************************************/
+.content {
+  margin: 10px 0;
+}
+
+.content .title {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
