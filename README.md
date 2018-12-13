@@ -1,4 +1,4 @@
-# MCCMMANCC2017
+# MCCMMANCC2018
 LT & Recreation Party - Exciting party among MCC & MMA & NCC
 
 ## Development
