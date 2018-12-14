@@ -22,12 +22,12 @@ blockquote cite {
  * welcom
  ****************************************/
 .welcome {
-  background: linear-gradient(160deg,rgba(49, 146, 14, 0.8),rgba(0, 106, 177, 0.8)),url('../img/uec-fountain.jpg') no-repeat 50% 50%/cover;
+  background: linear-gradient(160deg,rgba(14, 140, 146, 0.8),rgba(179, 79, 167, 0.8)),url('../img/tat-gate.jpg') no-repeat 50% 50%/cover;
   text-align: center;
   color: #eaeaea;
-  padding: 150px 0;
   margin-bottom: 30px;
-  max-height: 560px;
+  height: 100vh;
+  max-height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,14 +38,17 @@ blockquote cite {
   font-size: 10vw;
 }
 
-@media (min-width: 720px) {
-  .welcome .title {
-    font-size: 70px;
-  }
-}
-
 .welcome .description {
   font-size: 16px;
+}
+
+@media (min-width: 900px) {
+  .welcome .title {
+    font-size: 90px;
+  }
+  .welcome .description {
+    font-size: 20px;
+  }
 }
 
 .welcome .action-menu {
@@ -88,5 +91,10 @@ blockquote cite {
   text-align: center;
   border-top: 1px #ddd solid;
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+.footer p {
+  margin: 0.5em;
 }
