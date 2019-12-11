@@ -68,6 +68,10 @@ blockquote cite {
 }
 
 
+.welcome .action-menu .button #deadline {
+  font-size: 1.2rem;
+}
+
 /****************************************
  * content
  ****************************************/
