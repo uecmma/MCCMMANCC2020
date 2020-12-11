@@ -3,7 +3,8 @@ name: deploy to github pages
 on: 
   push:
     branches:
-    - master
+      - master
+      - mizdra-patch-1
 
 jobs:
   build-deploy:
