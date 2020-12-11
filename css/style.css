@@ -22,7 +22,7 @@ blockquote cite {
  * welcom
  ****************************************/
 .welcome {
-  background: linear-gradient(160deg,rgba(14, 140, 146, 0.8),rgba(179, 79, 167, 0.8)),url('../img/uec_fountain.jpg') no-repeat 50% 50%/cover;
+  background: linear-gradient(160deg,rgba(14, 140, 146, 0.8),rgba(179, 79, 167, 0.8)),url('../img/uec-fountain.jpg') no-repeat 50% 50%/cover;
   text-align: center;
   color: #eaeaea;
   margin-bottom: 30px;
