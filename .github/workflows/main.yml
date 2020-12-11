@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - mizdra-patch-1
 
 jobs:
   build-deploy:
